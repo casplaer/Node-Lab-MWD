@@ -1,0 +1,30 @@
+{
+  "name": "nodelab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "google-auth-library": "^9.15.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "path-browserify": "^1.0.1",
+    "querystring-es3": "^0.2.1",
+    "react-router-dom": "^7.0.2",
+    "stream-browserify": "^3.0.0",
+    "url": "^0.11.4"
+  }
+}
