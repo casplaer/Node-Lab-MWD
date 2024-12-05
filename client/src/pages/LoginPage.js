@@ -30,6 +30,7 @@ const LoginPage = () => {
   const handleGoogleLogin = async (response) => {
     try {
       const { credential } = response;
+      console.log(credential);
       const res = await axios.post('http://localhost:5000/api/auth/google', { credential });
       console.log('Google login success:', res.data);
       localStorage.setItem('token', res.data.token);
