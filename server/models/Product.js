@@ -5,7 +5,7 @@ const productSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  description:{
+  description: {
     type: String,
     required: false,
     default: "Описание товара",
@@ -19,6 +19,8 @@ const productSchema = new mongoose.Schema({
     ref: 'Category',  
     required: true
   }
+}, {
+  timestamps: true 
 });
 
 const Product = mongoose.model('Product', productSchema);
